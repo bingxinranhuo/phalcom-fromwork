@@ -15,7 +15,3 @@
 1. 打开config/define.php,把“api”增加到“MODULE_ALLOW_LIST”中define('MODULE_ALLOW_LIST', ['home', 'admin', 'api']);
 2. 复制一份module_bak重命名为api
 3. 搜索api目录下文件，将“module_bak”替换为“api”，将“Module_bak”替换为“Api”
-
-**只需这三步即可创建新模块**
-
-更多特点可以看博客https://blog.csdn.net/u014691098/article/category/7632913
